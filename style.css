@@ -10,9 +10,20 @@ body {
 .title {
     display: flex;
     justify-content: flex-start;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .links {
     display: flex;
-    
+
+}
+
+li {
+    list-style: none;
+    color: #f9faf8;
+}
+
+a {
+    text-decoration: none;
 }
