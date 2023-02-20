@@ -41,3 +41,42 @@ ul {
 a {
     text-decoration: none;
 }
+
+.section1 {
+    background-color: #1f2937;
+    display: flex;
+    padding: 64px;
+}
+
+.future {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    display: flex;
+    
+}
+
+.description {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex; 
+    flex-wrap: wrap;   
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    display: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.right {
+    display: flex;
+    flex-grow: 1;
+}
+
+img {
+    width: 800px;
+    height: 400px;
+}
