@@ -53,14 +53,25 @@ a {
     font-weight: 900;
     color: #f9faf8;
     display: flex;
-    
+    padding-bottom: 8px;
 }
 
 .description {
     font-size: 18px;
     color: #e5e7eb;
-    display: flex; 
-    flex-wrap: wrap;   
+    display: flex;
+    padding-bottom: 8px;    
+}
+
+button {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: 700;
+    font-size: 16px;
+    width: 150px;
 }
 
 .left {
@@ -69,11 +80,12 @@ a {
     display: 1;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 16px;
 }
 
 .right {
     display: flex;
-    flex-grow: 1;
+    flex: 1;
 }
 
 img {
