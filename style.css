@@ -125,3 +125,32 @@ img {
     color: #1f2937;
     padding: 16px;
 }
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+
+i {
+    font-size: 32px;
+    color: #1f2937;
+    padding-top: 124px;
+    padding-left: 124px;
+    padding-right: 124px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.author {
+    display: flex;
+    padding-bottom: 124px;
+    align-self: flex-end;
+    padding-left: 132px;
+    padding-right: 132px;
+    font-size: 24px;
+    font-weight: 900;
+    color: #1f2937;
+}
